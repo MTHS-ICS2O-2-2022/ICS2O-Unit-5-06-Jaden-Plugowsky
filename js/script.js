@@ -4,7 +4,7 @@
 // Created on: May 2023
 // This file contains the JS functions for index.html
 
-// Note: decimals do not work due to the counter incrementing by a whole one.
+//    Note: decimals do not work due to the counter incrementing by a whole one.
 // They do, however, work if the only decimal is typed into the first field,
 // so a solution could involve switching which of the two numbers is counted to using the counter variable to the number that is NOT a decimal.
 // Decimals would still require a better solution, as if both numbers are decimals, the program would simply not work as intended.
@@ -13,7 +13,7 @@
 "use strict"
 
 function calculatePressed() {
-  //This function does takes two user-given numbers and multiplies them together using only addition and loops
+  //This function takes two user-given numbers and multiplies them together using only addition and loops
   //Input through Textfields
   const firstNumber = parseInt(document.getElementById("first-number").value)
   const secondNumber = parseInt(document.getElementById("second-number").value)
@@ -38,4 +38,3 @@ function calculatePressed() {
   //Output
   document.getElementById("answer").innerHTML = "The answer is: " + answer
 }
-
