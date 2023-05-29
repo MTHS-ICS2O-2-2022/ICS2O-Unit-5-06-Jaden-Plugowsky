@@ -22,7 +22,7 @@ a {
 
 .right-image {
   height: auto;
-  width: 450px;
+  width: 250px;
   float: right;
   margin-right: 150px;
 }
@@ -47,6 +47,11 @@ a {
 
 .page-content-answer {
   font-size: 20px;
+}
+
+#description {
+  margin-top: 10px;
+  font-size: 18px;
 }
 
 #button-one {

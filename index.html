@@ -41,8 +41,11 @@
           <img src="./images/blackholehd.png" alt="black hole image" />
         </div>
         <div class="mdl-content">
-          Enter in two numbers and this program will multiply them together only
-          using addition and loops.
+          Enter in two numbers and this program will multiply them together
+          using only addition and loops.
+        </div>
+        <div id="description">
+          Note: Does not work with decimals.
         </div>
         <br />
         <!-- Numeric Textfield with Floating Label - First Number -->
@@ -53,13 +56,13 @@
             <input
               class="mdl-textfield__input"
               type="text"
-              pattern="-?[0-9]*(\.[0-9]+)?"
+              pattern="-?[0-9]*([0-9]+)?"
               id="first-number"
             />
-            <label class="mdl-textfield__label" for="first-number">First Number</label>
-            <span class="mdl-textfield__error"
-              >Input is not a number!</span
+            <label class="mdl-textfield__label" for="first-number"
+              >First Number</label
             >
+            <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
         </form>
         <!-- Numeric Textfield with Floating Label - Second Number -->
@@ -70,13 +73,13 @@
             <input
               class="mdl-textfield__input"
               type="text"
-              pattern="-?[0-9]*(\.[0-9]+)?"
+              pattern="-?[0-9]*([0-9]+)?"
               id="second-number"
             />
-            <label class="mdl-textfield__label" for="second-number">Second Number</label>
-            <span class="mdl-textfield__error"
-              >Input is not a number!</span
+            <label class="mdl-textfield__label" for="second-number"
+              >Second Number</label
             >
+            <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
         </form>
         <!-- Colored raised button with ripple -->
