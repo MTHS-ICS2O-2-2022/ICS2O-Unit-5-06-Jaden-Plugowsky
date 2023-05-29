@@ -35,13 +35,13 @@ func main() {
 		if secondNumber >= 0 {
 			// for all positive or firstNumber negative mixes
 			for counter < secondNumber {
-				answer = answer + firstNumber
+				answer += firstNumber
 				counter++
 			}
 		} else {
 			// for everything else: all negative or secondNumber negative mixes
 			for counter > secondNumber {
-				answer = answer - firstNumber
+				answer -= firstNumber
 				counter--
 			}
 		}
